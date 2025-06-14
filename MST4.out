@@ -1,0 +1,9 @@
+Welcome to the MST Test Program
+Testing the Default Scenario
+This is an empty graph - No MST
+Testing the file data
+The file name for the graph data: CIS-Land4.dat
+Error: 3 edges invalid to create a connected graph
+An empty graph will be created
+This is an empty graph - No MST
+Thank you for running the MST Test Program written by Shafaq Alhusseini!

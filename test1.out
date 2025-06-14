@@ -1,0 +1,19 @@
+Welcome to the MST Test Program
+Testing the Default Scenario
+This is an empty graph - No MST
+Testing the file data
+The file name for the graph data: test1.dat
+A graph with 2 and 1 will be created
+The number of input edges to process is: 1
+Edge Added: 0, 1, 7
+Edge Added: 1, 0, 7
+Full Graph - Adjacency List
+Adj[0] -> (1, 7)
+Adj[1] -> (0, 7)
+Minimum Spanning Tree
+Edge: 1 - 0 weight: 7
+Total cost of MST: 7
+MST Graph - Adjacency List
+Adj[0] -> (1, 7)
+Adj[1] -> (0, 7)
+Thank you for running the MST Test Program written by Shafaq Alhusseini!

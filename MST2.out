@@ -1,0 +1,43 @@
+Welcome to the MST Test Program
+Testing the Default Scenario
+This is an empty graph - No MST
+Testing the file data
+The file name for the graph data: CIS-Land2.dat
+A graph with 6 and 7 will be created
+The number of input edges to process is: 7
+Edge Added: 0, 1, 4
+Edge Added: 1, 0, 4
+Edge Added: 2, 3, 4
+Edge Added: 3, 2, 4
+Edge Added: 1, 3, 2
+Edge Added: 3, 1, 2
+Edge Added: 0, 2, 3
+Edge Added: 2, 0, 3
+Edge Added: 4, 5, 6
+Edge Added: 5, 4, 6
+Edge Added: 1, 2, 1
+Edge Added: 2, 1, 1
+Edge Added: 3, 4, 2
+Edge Added: 4, 3, 2
+Full Graph - Adjacency List
+Adj[0] -> (1, 4) (2, 3)
+Adj[1] -> (0, 4) (3, 2) (2, 1)
+Adj[2] -> (3, 4) (0, 3) (1, 1)
+Adj[3] -> (2, 4) (1, 2) (4, 2)
+Adj[4] -> (5, 6) (3, 2)
+Adj[5] -> (4, 6)
+Minimum Spanning Tree
+Edge: 2 - 0 weight: 3
+Edge: 1 - 2 weight: 1
+Edge: 3 - 1 weight: 2
+Edge: 4 - 3 weight: 2
+Edge: 5 - 4 weight: 6
+Total cost of MST: 14
+MST Graph - Adjacency List
+Adj[0] -> (2, 3)
+Adj[1] -> (2, 1) (3, 2)
+Adj[2] -> (0, 3) (1, 1)
+Adj[3] -> (1, 2) (4, 2)
+Adj[4] -> (3, 2) (5, 6)
+Adj[5] -> (4, 6)
+Thank you for running the MST Test Program written by Shafaq Alhusseini!

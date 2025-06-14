@@ -1,0 +1,54 @@
+Welcome to the MST Test Program
+Testing the Default Scenario
+This is an empty graph - No MST
+Testing the file data
+The file name for the graph data: CIS-Land3.dat
+A graph with 6 and 16 will be created
+The number of input edges to process is: 16
+Edge Added: 0, 1, 1
+Edge Added: 1, 0, 1
+Edge Added: 1, 3, 5
+Edge Added: 3, 1, 5
+This is an invalid source or destination vortex - Cannot add edge: -3, 1, 4 - Request ignored
+Edge Added: 3, 0, 3
+Edge Added: 0, 3, 3
+Edge Added: 3, 4, 1
+Edge Added: 4, 3, 1
+This is an invalid source or destination vortex - Cannot add edge: 6, 1, 6 - Request ignored
+Edge Added: 1, 4, 1
+Edge Added: 4, 1, 1
+This is an invalid source or destination vortex - Cannot add edge: 1, -3, 4 - Request ignored
+This is an invalid weight - Cannot add edge: 2, 4, 0 - Request ignored
+Edge Added: 1, 2, 6
+Edge Added: 2, 1, 6
+Edge Added: 5, 2, 2
+Edge Added: 2, 5, 2
+This is an invalid weight - Cannot add edge: 2, 4, -3 - Request ignored
+Edge Added: 2, 4, 4
+Edge Added: 4, 2, 4
+This is an invalid source or destination vortex - Cannot add edge: 5, 14, 5 - Request ignored
+Edge Added: 5, 4, 4
+Edge Added: 4, 5, 4
+This is an invalid source or destination vortex - Cannot add edge: 15, 3, 7 - Request ignored
+Full Graph - Adjacency List
+Adj[0] -> (1, 1) (3, 3)
+Adj[1] -> (0, 1) (3, 5) (4, 1) (2, 6)
+Adj[2] -> (1, 6) (5, 2) (4, 4)
+Adj[3] -> (1, 5) (0, 3) (4, 1)
+Adj[4] -> (3, 1) (1, 1) (2, 4) (5, 4)
+Adj[5] -> (2, 2) (4, 4)
+Minimum Spanning Tree
+Edge: 1 - 0 weight: 1
+Edge: 4 - 1 weight: 1
+Edge: 3 - 4 weight: 1
+Edge: 2 - 4 weight: 4
+Edge: 5 - 2 weight: 2
+Total cost of MST: 9
+MST Graph - Adjacency List
+Adj[0] -> (1, 1)
+Adj[1] -> (0, 1) (4, 1)
+Adj[2] -> (4, 4) (5, 2)
+Adj[3] -> (4, 1)
+Adj[4] -> (1, 1) (3, 1) (2, 4)
+Adj[5] -> (2, 2)
+Thank you for running the MST Test Program written by Shafaq Alhusseini!
